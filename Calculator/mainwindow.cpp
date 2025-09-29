@@ -75,7 +75,7 @@ void MainWindow::on_pushButton_result_clicked()
         }
     }
 
-    ui->output_show->setText(QString::number(result, 'g', 15));
+    ui->output_show->setText(QString::number(result, 'g' , 15));
     pending_operator.clear();
 }
 
